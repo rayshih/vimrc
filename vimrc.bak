@@ -1,33 +1,23 @@
 " My Bundles here:
 "
 " original repos on github
+" not currently used
 Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-surround'
-" Bundle 'tpope/vim-eunuch'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'nathanaelkane/vim-indent-guides'
-" Bundle 'uguu-org/vim-matrix-screensaver'
-Bundle 'Lokaltog/vim-easymotion'
-" Bundle 'wgibbs/vim-irblack'
 Bundle 'juvenn/mustache.vim'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Bundle 'jakar/vim-json'
-" Bundle 'heavenshell/vim-jsdoc'
-Bundle 'Townk/vim-autoclose'
-" Bundle 'majutsushi/tagbar'
-Bundle 'tristen/vim-sparkup'
 Bundle 'heartsentwined/vim-emblem'
-" Bundle 'vim-scripts/taglist.vim'
-Bundle 'pangloss/vim-javascript'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'mxw/vim-jsx'
-" Bundle 'geekjuice/vim-mocha'
 Bundle 'ekalinin/Dockerfile.vim'
+Bundle 'Align'
+Bundle 'mru.vim'
 
-" Clojure
-nnoremap <C-e> :Eval<CR>
-Bundle 'guns/vim-clojure-static'
-Bundle 'tpope/vim-fireplace'
+" whats this
+Bundle 'tristen/vim-sparkup'
+
+" consider
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+" should install
 
 " snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -36,13 +26,6 @@ Bundle "garbas/vim-snipmate"
 " Bundle 'honza/snipmate-snippets'
 Bundle "honza/vim-snippets"
 Bundle "justinj/vim-react-snippets"
-
-" vim-scripts repos
-Bundle 'Align'
-Bundle 'mru.vim'
-
-" Sublime Text
-Bundle 'terryma/vim-multiple-cursors'
 
 " Powerline setting
 set laststatus=2   " Always show the statusline
@@ -98,9 +81,6 @@ au BufWinEnter * set winminheight=6
 " Show the extra tailing space
 highlight ExtraWhitespace ctermbg=red guibg=red
 au BufWinEnter * match ExtraWhitespace /\s\+$/
-
-" CtrlP
-let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 
 " Command
 " GREP

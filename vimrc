@@ -15,12 +15,27 @@ Plugin 'tpope/vim-fugitive'
 " Navigation
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-easymotion'
 
 " Syntax
 Bundle 'scrooloose/syntastic'
+Bundle 'derekwyatt/vim-scala'
+
+" JS
+Bundle 'jakar/vim-json'
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
+
+" Clojure
+nnoremap <C-e> :Eval<CR>
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
 
 "" Auto
 Bundle 'tomtom/tcomment_vim'
+Bundle 'tpope/vim-surround'
+Bundle 'Townk/vim-autoclose'
+Bundle 'terryma/vim-multiple-cursors'
 
 " Color
 Bundle 'altercation/vim-colors-solarized'
@@ -59,6 +74,9 @@ set shiftwidth=2
 " color
 set background=dark
 colorscheme solarized
+
+" CtrlP
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
