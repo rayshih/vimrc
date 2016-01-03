@@ -2,7 +2,11 @@
 
 ## How to install
 
-TODO
+```
+git clone git@github.com:rayshih/vimrc.git
+cd vimrc
+ln -s $(pwd)/vimrc ~/.vimrc
+```
 
 ## Included Plugins
 
