@@ -20,7 +20,10 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " Vundle setting end
 
+" basic
 syntax on
+" set number
+set rnu
 
 " move between windows
 nnoremap <C-J> <C-W><C-J>
