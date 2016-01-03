@@ -24,6 +24,13 @@
 ## Included Plugins
 
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy finder
+- [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
+- [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
+- [tcomment](https://github.com/tomtom/tcomment_vim): Toggle comments
+
+## Color Scheme
+
+- [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 
 ## Key Mappings
 

@@ -1,36 +1,18 @@
-" Vundle setting start
-set nocompatible               " be iMproved
-filetype off                   " required!
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
-
 " My Bundles here:
 "
 " original repos on github
-Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-surround'
 " Bundle 'tpope/vim-eunuch'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'tomtom/tcomment_vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'nathanaelkane/vim-indent-guides'
 " Bundle 'uguu-org/vim-matrix-screensaver'
 Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'wgibbs/vim-irblack'
 Bundle 'juvenn/mustache.vim'
-Bundle 'kien/ctrlp.vim'
-" Bundle 'Lokaltog/vim-powerline'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'jakar/vim-json'
 " Bundle 'heavenshell/vim-jsdoc'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'Townk/vim-autoclose'
 " Bundle 'majutsushi/tagbar'
 Bundle 'tristen/vim-sparkup'
@@ -47,9 +29,6 @@ nnoremap <C-e> :Eval<CR>
 Bundle 'guns/vim-clojure-static'
 Bundle 'tpope/vim-fireplace'
 
-" seems not work
-" Bundle 'rorymckinley/vim-rubyhash'
-
 " snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -60,52 +39,26 @@ Bundle "justinj/vim-react-snippets"
 
 " vim-scripts repos
 Bundle 'Align'
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
 Bundle 'mru.vim'
 
 " Sublime Text
 Bundle 'terryma/vim-multiple-cursors'
-
-" non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-" ...
 
 " Powerline setting
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols = 'fancy'
 
-filetype plugin indent on     " required!
 " Vundle setting end
 
 syntax on
-
-" search
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
 
 set number
 set rnu
 set backspace=2
 
-" setup external vimrc
-set exrc
-set secure
-
-" indent setting
-set expandtab
-set tabstop=2
-set shiftwidth=2
-
 " NerdTree setting
 let NERDTreeIgnore = ['\.pyc$']
-
-" color
-set background=dark
-colorscheme solarized
 
 " file type setting
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
@@ -137,16 +90,6 @@ cnoremap <C-F> <Right>
 cnoremap <C-B> <Left>
 cnoremap <Esc>b <S-Left>
 cnoremap <Esc>f <S-Right>
-
-" window movement
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
-" tab move movement
-nnoremap <F7> gT
-nnoremap <F8> gt
 
 " window manipulation setting
 au BufWinEnter * set winheight=6  " without this line the it will .... alert
@@ -204,4 +147,3 @@ let Tlist_Use_Right_Window = 1
 let g:syntastic_html_checkers=['']
 let g:syntastic_scss_checkers=['']
 let g:syntastic_scala_checkers=['']
-let g:syntastic_javascript_checkers = ['eslint']
