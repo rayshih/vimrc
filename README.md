@@ -29,7 +29,7 @@
 - [tcomment](https://github.com/tomtom/tcomment_vim): Toggle comments
 - [easymotion](https://github.com/easymotion/vim-easymotion): Fast navigation in code
 - [vim-scala](https://github.com/derekwyatt/vim-scala): Scala syntax
-- [vim-json](https://github.com/jakar/vim-json): JSON syntax
+- [vim-json](https://github.com/elzr/vim-json): JSON syntax
 - [vim-javascript](https://github.com/pangloss/vim-javascript): Javascript syntax
 - [vim-jsx](https://github.com/pangloss/vim-jsx): JSX syntax
 - [vim-clojure-static](https://github.com/guns/vim-clojure-static): Clojure syntax
@@ -37,6 +37,8 @@
 - [vim-surround](https://github.com/tpope/vim-surround): Parenthesis manipulation
 - [vim-autoclose](https://github.com/Townk/vim-autoclose): Auto parenthesis
 - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text Command D like function
+- [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Fix/highlight tail space
+- [vim-airline](https://github.com/bling/vim-airline): Airline
 
 ## Color Scheme
 
@@ -55,7 +57,7 @@ nnoremap <C-H> <C-W><C-H>
 
 ## TODO
 
-- `airline` or `powerline`
-- tail space
 - autoclose compare
+- organize readme (plugins part)
 - snippets
+- zen code
