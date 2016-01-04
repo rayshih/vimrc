@@ -1,0 +1,45 @@
+" Vundle setting start
+Plugin 'bling/vim-airline'
+
+" snippet
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+
+" syntax related
+Plugin 'elzr/vim-json'
+
+" parenthesis
+Plugin 'Raimondi/delimitMate'
+" Vundle setting end
+
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
+
+set backspace=2
+
+" file type setting
+autocmd BufNewFile,BufRead Podfile set filetype=ruby
+
+" fold
+autocmd FileType javascript setlocal foldmethod=indent foldlevel=100
+autocmd FileType json setlocal foldmethod=indent foldlevel=100
+autocmd FileType html setlocal foldmethod=indent foldlevel=100
+autocmd FileType scala setlocal foldmethod=syntax foldlevel=100
+
+let g:syntastic_mode_map = { "mode": "active",
+                           \ "passive_filetypes": ["scala"] }
+
+" ExtraWhitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+
+" JSX
+let g:jsx_ext_required = 0

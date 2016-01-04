@@ -56,5 +56,6 @@ nnoremap <C-H> <C-W><C-H>
 ## TODO
 
 - `airline` or `powerline`
-- snippets
 - tail space
+- autoclose compare
+- snippets

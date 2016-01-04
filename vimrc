@@ -45,8 +45,6 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " Vundle setting end
 
-" basic
-syntax on
 " set number
 set rnu
 
@@ -72,6 +70,7 @@ set tabstop=2
 set shiftwidth=2
 
 " color
+syntax on
 set background=dark
 colorscheme solarized
 
