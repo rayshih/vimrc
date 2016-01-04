@@ -61,3 +61,4 @@ nnoremap <C-H> <C-W><C-H>
 ## TODO
 
 - organize readme (plugins part)
+- fine tune line number

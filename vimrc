@@ -54,7 +54,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " Vundle setting end
 
-" set number
+" line number
+set number
 set rnu
 
 " search
