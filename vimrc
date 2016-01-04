@@ -28,7 +28,6 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
 " Clojure
-nnoremap <C-e> :Eval<CR>
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
 
@@ -37,6 +36,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
 Plugin 'Townk/vim-autoclose'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'mattn/emmet-vim'
 
 " View
 Plugin 'bling/vim-airline'

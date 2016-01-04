@@ -39,6 +39,7 @@
 - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text Command D like function
 - [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Fix/highlight tail space
 - [vim-airline](https://github.com/bling/vim-airline): Airline
+- [emmet-vim](https://github.com/mattn/emmet-vim): Emmet for vim (like zencoding)
 
 ## Color Scheme
 
