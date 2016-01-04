@@ -35,11 +35,13 @@
 - [vim-clojure-static](https://github.com/guns/vim-clojure-static): Clojure syntax
 - [vim-fireplace](https://github.com/tpope/vim-fireplace): Clojure REPL
 - [vim-surround](https://github.com/tpope/vim-surround): Parenthesis manipulation
-- [vim-autoclose](https://github.com/Townk/vim-autoclose): Auto parenthesis
+- [delimitMat](https://github.com/Raimondi/delimitMate): Auto parenthesis
 - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text Command D like function
 - [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Fix/highlight tail space
 - [vim-airline](https://github.com/bling/vim-airline): Airline
 - [emmet-vim](https://github.com/mattn/emmet-vim): Emmet for vim (like zencoding)
+- [vim-snipmate](https://github.com/garbas/vim-snipmate): Snippets library
+- [vim-snippets](https://github.com/honza/vim-snippet): Snippets
 
 ## Color Scheme
 
@@ -58,7 +60,4 @@ nnoremap <C-H> <C-W><C-H>
 
 ## TODO
 
-- autoclose compare
 - organize readme (plugins part)
-- snippets
-- zen code

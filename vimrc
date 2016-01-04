@@ -34,9 +34,16 @@ Plugin 'tpope/vim-fireplace'
 " Auto
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
-Plugin 'Townk/vim-autoclose'
+Plugin 'Raimondi/delimitMate'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mattn/emmet-vim'
+
+" Snippets
+" the first two are dependencies of vim-snipmate
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 " View
 Plugin 'bling/vim-airline'

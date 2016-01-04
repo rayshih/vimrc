@@ -14,15 +14,6 @@ Bundle 'mru.vim'
 " zen code
 Bundle 'tristen/vim-sparkup'
 
-
-" snipmate
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-" Bundle 'honza/snipmate-snippets'
-Bundle "honza/vim-snippets"
-Bundle "justinj/vim-react-snippets"
-
 " Vundle setting end
 
 set backspace=2
@@ -109,3 +100,10 @@ let Tlist_Use_Right_Window = 1
 let g:syntastic_html_checkers=['']
 let g:syntastic_scss_checkers=['']
 let g:syntastic_scala_checkers=['']
+
+" file type setting
+let g:syntastic_mode_map = { "mode": "active",
+                           \ "passive_filetypes": ["scala"] }
+
+" JSX
+let g:jsx_ext_required = 0
