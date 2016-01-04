@@ -93,3 +93,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
+
+" JSX
+let g:jsx_ext_required = 0
