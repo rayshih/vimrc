@@ -63,3 +63,5 @@ nnoremap <C-H> <C-W><C-H>
 - organize readme (plugins part)
 - fine tune line number
 - try YouCompleteMe
+- add solarized color scheme install guide for iterm2
+- add powerline font install guide <https://github.com/abertsch/Menlo-for-Powerline>
