@@ -62,3 +62,4 @@ nnoremap <C-H> <C-W><C-H>
 
 - organize readme (plugins part)
 - fine tune line number
+- try YouCompleteMe
