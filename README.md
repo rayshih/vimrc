@@ -65,3 +65,4 @@ nnoremap <C-H> <C-W><C-H>
 - try YouCompleteMe
 - add solarized color scheme install guide for iterm2
 - add powerline font install guide <https://github.com/abertsch/Menlo-for-Powerline>
+- nerdtree and ctrlp integration
