@@ -21,6 +21,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'scrooloose/syntastic'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'kchmck/vim-coffee-script'
 
 " JS
 Plugin 'elzr/vim-json'
