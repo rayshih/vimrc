@@ -32,6 +32,9 @@ Plugin 'mxw/vim-jsx'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
 
+" ELM
+Plugin 'lambdatoast/elm.vim'
+
 " Auto
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
