@@ -35,6 +35,12 @@ Plugin 'tpope/vim-fireplace'
 " ELM
 Plugin 'lambdatoast/elm.vim'
 
+" Haskell
+Plugin 'neovimhaskell/haskell-vim'
+
+" PureScript
+Plugin 'raichoo/purescript-vim'
+
 " Auto
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
