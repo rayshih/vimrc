@@ -27,6 +27,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'elzr/vim-json'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'flowtype/vim-flow'
 
 " Clojure
 Plugin 'guns/vim-clojure-static'

@@ -69,3 +69,4 @@ nnoremap <C-H> <C-W><C-H>
 - add doc for coffeescript
 - add doc for ELM
 - add doc for https://github.com/raichoo/purescript-vim
+- add doc for flowtype
