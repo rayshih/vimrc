@@ -25,7 +25,7 @@ Plugin 'kchmck/vim-coffee-script'
 
 " JS
 Plugin 'elzr/vim-json'
-Plugin 'pangloss/vim-javascript'
+Plugin 'othree/yajs.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'flowtype/vim-flow'
 
@@ -95,6 +95,9 @@ syntax on
 set background=dark
 colorscheme solarized
 
+" filetypes
+autocmd BufNewFile,BufRead .eslintrc set filetype=json
+
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 
@@ -108,3 +111,6 @@ set laststatus=2
 
 " JSX
 let g:jsx_ext_required = 0
+
+" flowtype
+let g:flow#autoclose = 1
