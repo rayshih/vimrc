@@ -98,6 +98,7 @@ colorscheme solarized
 " filetypes
 autocmd BufNewFile,BufRead .eslintrc set filetype=json
 autocmd BufNewFile,BufRead .babelrc set filetype=json
+autocmd BufNewFile,BufRead *.js.flow set filetype=javascript
 
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
