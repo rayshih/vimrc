@@ -30,7 +30,7 @@
 - [easymotion](https://github.com/easymotion/vim-easymotion): Fast navigation in code
 - [vim-scala](https://github.com/derekwyatt/vim-scala): Scala syntax
 - [vim-json](https://github.com/elzr/vim-json): JSON syntax
-- [yajs](https://github.com/othree/yajs.vim): Javascript syntax
+- [vim-javascript](https://github.com/pangloss/vim-javascript): Javascript syntax
 - [vim-jsx](https://github.com/pangloss/vim-jsx): JSX syntax
 - [vim-clojure-static](https://github.com/guns/vim-clojure-static): Clojure syntax
 - [vim-fireplace](https://github.com/tpope/vim-fireplace): Clojure REPL

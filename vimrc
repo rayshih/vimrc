@@ -25,7 +25,8 @@ Plugin 'kchmck/vim-coffee-script'
 
 " JS
 Plugin 'elzr/vim-json'
-Plugin 'othree/yajs.vim'
+" Plugin 'othree/yajs.vim'
+Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'flowtype/vim-flow'
 
