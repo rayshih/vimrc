@@ -93,6 +93,7 @@ set shiftwidth=2
 
 " fold
 set foldmethod=syntax
+set foldlevelstart=20
 
 " color
 syntax on
