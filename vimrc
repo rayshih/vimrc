@@ -91,6 +91,9 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" fold
+set foldmethod=syntax
+
 " color
 syntax on
 set background=dark
@@ -106,6 +109,9 @@ let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
+
+" javascript
+let g:javascript_plugin_flow = 1
 
 " airline
 let g:airline_powerline_fonts = 1
