@@ -42,6 +42,7 @@ Plugin 'neovimhaskell/haskell-vim'
 
 " PureScript
 Plugin 'raichoo/purescript-vim'
+Plugin 'paluh/psc-ide-vim'
 
 " Auto
 Plugin 'tomtom/tcomment_vim'
