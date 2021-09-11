@@ -1,71 +1,36 @@
-" Vundle setting start
-set nocompatible              " be iMproved, required
-filetype off                  " required
+call plug#begin('~/.vim/plugged')
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" Keep Plugin commands between vundle#begin/end.
-Plugin 'tpope/vim-fugitive'
+" Git
+Plug 'tpope/vim-fugitive'
 
 " Navigation
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Lokaltog/vim-easymotion'
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'Lokaltog/vim-easymotion'
 
 " Syntax
-Plugin 'scrooloose/syntastic'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'kchmck/vim-coffee-script'
+Plug 'scrooloose/syntastic'
+
+" Edit
+Plug 'tomtom/tcomment_vim'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'tpope/vim-surround'
+Plug 'Raimondi/delimitMate'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'mattn/emmet-vim'
 
 " JS
-Plugin 'elzr/vim-json'
-" Plugin 'othree/yajs.vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
-Plugin 'flowtype/vim-flow'
-
-" Clojure
-Plugin 'guns/vim-clojure-static'
-Plugin 'tpope/vim-fireplace'
-
-" ELM
-Plugin 'lambdatoast/elm.vim'
-
-" Haskell
-Plugin 'neovimhaskell/haskell-vim'
-
-" PureScript
-Plugin 'purescript-contrib/purescript-vim'
-Plugin 'paluh/psc-ide-vim'
-
-" Auto
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-surround'
-Plugin 'Raimondi/delimitMate'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'mattn/emmet-vim'
-
-" Snippets
-" the first two are dependencies of vim-snipmate
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+Plug 'elzr/vim-json'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 " View
-Plugin 'bling/vim-airline'
-Plugin 'altercation/vim-colors-solarized'
+Plug 'bling/vim-airline'
+Plug 'altercation/vim-colors-solarized'
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" Vundle setting end
+" All of your Plugs must be added before the following line
+" Initialize plugin system
+call plug#end()
 
 " line number
 set number
@@ -112,9 +77,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
 
-" javascript
-let g:javascript_plugin_flow = 1
-
 " airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -122,6 +84,3 @@ set laststatus=2
 
 " JSX
 let g:jsx_ext_required = 0
-
-" flowtype
-let g:flow#autoclose = 1

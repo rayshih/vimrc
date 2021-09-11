@@ -10,38 +10,33 @@
    ln -s $(pwd)/vimrc ~/.vimrc
    ```
 
-2. Then install Vundle:
+2. Then install vim-plug:
 
-   ```
-   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-   ```
+[https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 
 3. Then install bundles:
 
-   Launch `vim` and run `:PluginInstall`
+   Launch `vim` and run `:PlugInstall`
 
 
 ## Included Plugins
 
+- [fugitive.vim](https://github.com/tpope/vim-fugitive): Git Plugin
 - [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy finder
 - [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
-- [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
-- [tcomment](https://github.com/tomtom/tcomment_vim): Toggle comments
 - [easymotion](https://github.com/easymotion/vim-easymotion): Fast navigation in code
-- [vim-scala](https://github.com/derekwyatt/vim-scala): Scala syntax
-- [vim-json](https://github.com/elzr/vim-json): JSON syntax
-- [vim-javascript](https://github.com/pangloss/vim-javascript): Javascript syntax
-- [vim-jsx](https://github.com/pangloss/vim-jsx): JSX syntax
-- [vim-clojure-static](https://github.com/guns/vim-clojure-static): Clojure syntax
-- [vim-fireplace](https://github.com/tpope/vim-fireplace): Clojure REPL
+- [syntastic](https://github.com/scrooloose/syntastic): Syntax checking
+
+- [tcomment](https://github.com/tomtom/tcomment_vim): Toggle comments
+- [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Fix/highlight tail space
 - [vim-surround](https://github.com/tpope/vim-surround): Parenthesis manipulation
 - [delimitMat](https://github.com/Raimondi/delimitMate): Auto parenthesis
 - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text Command D like function
-- [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Fix/highlight tail space
+- [emmet-vim](https://github.com/mattn/emmet-vim): Fast html tags auto complete
+- [vim-json](https://github.com/elzr/vim-json): JSON syntax
+- [vim-javascript](https://github.com/pangloss/vim-javascript): Javascript syntax
+- [vim-jsx](https://github.com/pangloss/vim-jsx): JSX syntax
 - [vim-airline](https://github.com/bling/vim-airline): Airline
-- [emmet-vim](https://github.com/mattn/emmet-vim): Emmet for vim (like zencoding)
-- [vim-snipmate](https://github.com/garbas/vim-snipmate): Snippets library
-- [vim-snippets](https://github.com/honza/vim-snippet): Snippets
 
 ## Color Scheme
 
@@ -64,9 +59,4 @@ nnoremap <C-H> <C-W><C-H>
 - fine tune line number
 - try YouCompleteMe
 - add solarized color scheme install guide for iterm2
-- add powerline font install guide <https://github.com/abertsch/Menlo-for-Powerline>
 - nerdtree and ctrlp integration
-- add doc for coffeescript
-- add doc for ELM
-- add doc for https://github.com/raichoo/purescript-vim
-- add doc for flowtype
