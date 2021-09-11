@@ -41,7 +41,7 @@ Plugin 'lambdatoast/elm.vim'
 Plugin 'neovimhaskell/haskell-vim'
 
 " PureScript
-Plugin 'raichoo/purescript-vim'
+Plugin 'purescript-contrib/purescript-vim'
 Plugin 'paluh/psc-ide-vim'
 
 " Auto
